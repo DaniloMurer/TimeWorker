@@ -24,7 +24,7 @@ void TaskSerializer::serialize_object(Task *object) const {
     fileStream.open(appData + "/timeworker.data", std::ios::app);
 
     fileStream << "," + std::to_string(*id) + "," + *taskName + "," + std::to_string(*loggedHours) + "," + timeString;
-
+    fileStream.close();
 }
 
 void TaskSerializer::deserialize_object(std::string *filePath) const {
@@ -43,6 +43,7 @@ void TaskSerializer::deserialize_object(std::string *filePath) const {
             std::cout << splitData.size() <<std::endl;
         }
     }
+    fileStream.close();
 
     //TODO: Process splitted data into tasks
 }
