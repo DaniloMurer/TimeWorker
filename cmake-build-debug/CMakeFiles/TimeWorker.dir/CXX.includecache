@@ -13,6 +13,12 @@ TaskSerializer.h
 C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/core/TaskSerializer.h
 fstream
 C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/core/fstream
+iostream
+C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/core/iostream
+string
+-
+vector
+-
 
 C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/core/TaskSerializer.h
 AbstractSerializer.h

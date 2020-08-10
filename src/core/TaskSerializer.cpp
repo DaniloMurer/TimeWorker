@@ -4,6 +4,9 @@
 
 #include "TaskSerializer.h"
 #include "fstream"
+#include "iostream"
+#include <string>
+#include <vector>
 
 void TaskSerializer::serialize_object(Task *object) const {
     // Store elements from class
@@ -20,10 +23,26 @@ void TaskSerializer::serialize_object(Task *object) const {
     std::ofstream fileStream;
     fileStream.open(appData + "/timeworker.data", std::ios::app);
 
-    fileStream << std::to_string(*id) + "," + *taskName + "," + std::to_string(*loggedHours) + "," + timeString;
+    fileStream << "," + std::to_string(*id) + "," + *taskName + "," + std::to_string(*loggedHours) + "," + timeString;
 
 }
 
-void TaskSerializer::deserialize_object(Task *object) const {
+void TaskSerializer::deserialize_object(std::string *filePath) const {
+    std::string appData = getenv("APPDATA");
+    std::fstream fileStream;
+    fileStream.open(*filePath);
+    std::vector<std::string> splitData;
 
+    if (fileStream.is_open()) {
+        std::string line;
+        while (std::getline(fileStream, line, ',')) {
+            if (line.empty()) {
+                continue;
+            }
+            splitData.push_back(line);
+            std::cout << splitData.size() <<std::endl;
+        }
+    }
+
+    //TODO: Process splitted data into tasks
 }

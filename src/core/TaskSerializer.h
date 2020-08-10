@@ -9,11 +9,11 @@
 #include "AbstractSerializer.h"
 #include "../data/Task.h"
 
-class TaskSerializer : public AbstractSerializer<Task> {
+class TaskSerializer : public AbstractSerializer<Task, std::string> {
 public:
     void serialize_object(Task *object) const override;
 
-    void deserialize_object(Task *object) const override;
+    void deserialize_object(std::string *filePath) const override;
 };
 
 
