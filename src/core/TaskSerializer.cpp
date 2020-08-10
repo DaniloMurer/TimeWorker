@@ -19,7 +19,10 @@ void TaskSerializer::serialize_object(Task *object) const {
     std::string timeString = ctime(time);
     // Get the AppData Folder
     std::string appData = getenv("APPDATA");
-
+    cout << *taskName << endl;
+    cout << *loggedHours << endl;
+    cout << ctime(reinterpret_cast<const time_t *>(*time)) << endl;
+    cout << *id << endl;
     // Write data to file
     std::ofstream fileStream;
     fileStream.open(appData + "/timeworker.data", std::ios::app);

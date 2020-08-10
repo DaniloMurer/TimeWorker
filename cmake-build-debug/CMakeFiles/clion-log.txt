@@ -1,4 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\JADA\Documents\Applikationen\C++\TimeWorker
+F:\Programme\JetBrains\Toolbox\apps\CLion\ch-0\202.6397.106\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" E:\Dokumente\Applikationen\TimeWorker
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/cmake-build-debug
+-- Build files have been written to: E:/Dokumente/Applikationen/TimeWorker/cmake-build-debug

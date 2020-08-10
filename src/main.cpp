@@ -1,9 +1,10 @@
 #include <iostream>
 #include "data/Task.h"
 #include "core/TaskSerializer.h"
+#include "string"
 int main() {
-
-    Task *task = new Task("Test123");
+    char* name = "Test123";
+    Task *task = new Task(name);
     TaskSerializer *taskSerializer = new TaskSerializer();
     std::string appData = getenv("APPDATA");
     std::string filePath = appData + "/timeworker.data";

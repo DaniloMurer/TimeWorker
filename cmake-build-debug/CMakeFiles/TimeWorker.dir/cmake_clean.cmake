@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/TimeWorker.dir/src/cli/TimeWorkerCli.cpp.obj"
   "CMakeFiles/TimeWorker.dir/src/core/AbstractSerializer.cpp.obj"
   "CMakeFiles/TimeWorker.dir/src/core/TaskSerializer.cpp.obj"
   "CMakeFiles/TimeWorker.dir/src/data/Task.cpp.obj"

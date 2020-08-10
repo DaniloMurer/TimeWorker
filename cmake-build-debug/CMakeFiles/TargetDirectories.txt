@@ -1,3 +1,3 @@
-C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/cmake-build-debug/CMakeFiles/TimeWorker.dir
-C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+E:/Dokumente/Applikationen/TimeWorker/cmake-build-debug/CMakeFiles/TimeWorker.dir
+E:/Dokumente/Applikationen/TimeWorker/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/Dokumente/Applikationen/TimeWorker/cmake-build-debug/CMakeFiles/rebuild_cache.dir
