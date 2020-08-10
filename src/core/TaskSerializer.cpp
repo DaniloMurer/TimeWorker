@@ -20,7 +20,7 @@ void TaskSerializer::serialize_object(Task *object) const {
     std::ofstream fileStream;
     fileStream.open(appData + "/timeworker.data", std::ios::app);
 
-    fileStream << std::to_string(*id) + ", " + *taskName + ", " + std::to_string(*loggedHours) + ", " + timeString;
+    fileStream << std::to_string(*id) + "," + *taskName + "," + std::to_string(*loggedHours) + "," + timeString;
 
 }
 
