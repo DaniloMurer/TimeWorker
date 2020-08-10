@@ -122,6 +122,60 @@ TimeWorker/fast:
 	$(MAKE) -f CMakeFiles\TimeWorker.dir\build.make CMakeFiles/TimeWorker.dir/build
 .PHONY : TimeWorker/fast
 
+src/core/AbstractSerializer.obj: src/core/AbstractSerializer.cpp.obj
+
+.PHONY : src/core/AbstractSerializer.obj
+
+# target to build an object file
+src/core/AbstractSerializer.cpp.obj:
+	$(MAKE) -f CMakeFiles\TimeWorker.dir\build.make CMakeFiles/TimeWorker.dir/src/core/AbstractSerializer.cpp.obj
+.PHONY : src/core/AbstractSerializer.cpp.obj
+
+src/core/AbstractSerializer.i: src/core/AbstractSerializer.cpp.i
+
+.PHONY : src/core/AbstractSerializer.i
+
+# target to preprocess a source file
+src/core/AbstractSerializer.cpp.i:
+	$(MAKE) -f CMakeFiles\TimeWorker.dir\build.make CMakeFiles/TimeWorker.dir/src/core/AbstractSerializer.cpp.i
+.PHONY : src/core/AbstractSerializer.cpp.i
+
+src/core/AbstractSerializer.s: src/core/AbstractSerializer.cpp.s
+
+.PHONY : src/core/AbstractSerializer.s
+
+# target to generate assembly for a file
+src/core/AbstractSerializer.cpp.s:
+	$(MAKE) -f CMakeFiles\TimeWorker.dir\build.make CMakeFiles/TimeWorker.dir/src/core/AbstractSerializer.cpp.s
+.PHONY : src/core/AbstractSerializer.cpp.s
+
+src/core/TaskSerializer.obj: src/core/TaskSerializer.cpp.obj
+
+.PHONY : src/core/TaskSerializer.obj
+
+# target to build an object file
+src/core/TaskSerializer.cpp.obj:
+	$(MAKE) -f CMakeFiles\TimeWorker.dir\build.make CMakeFiles/TimeWorker.dir/src/core/TaskSerializer.cpp.obj
+.PHONY : src/core/TaskSerializer.cpp.obj
+
+src/core/TaskSerializer.i: src/core/TaskSerializer.cpp.i
+
+.PHONY : src/core/TaskSerializer.i
+
+# target to preprocess a source file
+src/core/TaskSerializer.cpp.i:
+	$(MAKE) -f CMakeFiles\TimeWorker.dir\build.make CMakeFiles/TimeWorker.dir/src/core/TaskSerializer.cpp.i
+.PHONY : src/core/TaskSerializer.cpp.i
+
+src/core/TaskSerializer.s: src/core/TaskSerializer.cpp.s
+
+.PHONY : src/core/TaskSerializer.s
+
+# target to generate assembly for a file
+src/core/TaskSerializer.cpp.s:
+	$(MAKE) -f CMakeFiles\TimeWorker.dir\build.make CMakeFiles/TimeWorker.dir/src/core/TaskSerializer.cpp.s
+.PHONY : src/core/TaskSerializer.cpp.s
+
 src/data/Task.obj: src/data/Task.cpp.obj
 
 .PHONY : src/data/Task.obj
@@ -185,6 +239,12 @@ help:
 	@echo ... TimeWorker
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... src/core/AbstractSerializer.obj
+	@echo ... src/core/AbstractSerializer.i
+	@echo ... src/core/AbstractSerializer.s
+	@echo ... src/core/TaskSerializer.obj
+	@echo ... src/core/TaskSerializer.i
+	@echo ... src/core/TaskSerializer.s
 	@echo ... src/data/Task.obj
 	@echo ... src/data/Task.i
 	@echo ... src/data/Task.s

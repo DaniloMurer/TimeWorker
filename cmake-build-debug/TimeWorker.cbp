@@ -80,6 +80,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/core/AbstractSerializer.cpp">
+			<Option target="TimeWorker"/>
+		</Unit>
+		<Unit filename="C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/core/AbstractSerializer.h">
+			<Option target="TimeWorker"/>
+		</Unit>
+		<Unit filename="C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/core/TaskSerializer.cpp">
+			<Option target="TimeWorker"/>
+		</Unit>
+		<Unit filename="C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/core/TaskSerializer.h">
+			<Option target="TimeWorker"/>
+		</Unit>
 		<Unit filename="C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/data/Task.cpp">
 			<Option target="TimeWorker"/>
 		</Unit>

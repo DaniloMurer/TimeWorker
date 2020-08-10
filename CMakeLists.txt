@@ -3,4 +3,4 @@ project(TimeWorker)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(TimeWorker src/main.cpp src/main.h src/data/Task.cpp src/data/Task.h)
+add_executable(TimeWorker src/main.cpp src/main.h src/data/Task.cpp src/data/Task.h src/core/AbstractSerializer.cpp src/core/AbstractSerializer.h src/core/TaskSerializer.cpp src/core/TaskSerializer.h)
