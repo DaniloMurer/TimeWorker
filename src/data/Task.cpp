@@ -39,4 +39,11 @@ Task::Task(std::string taskName) {
     Task::taskTime = &time;
  }
 
+Task::Task(int id, std::string taskName, int loggedHours, time_t taskTime) {
+    Task::id = &id;
+    Task::taskName = &taskName;
+    Task::loggedHours = &loggedHours;
+    Task::taskTime = &taskTime;
+}
+
 

@@ -25,6 +25,7 @@ public:
     ~Task();
 
     explicit Task(std::string taskName);
+    explicit Task(int id, std::string taskName, int loggedHours, time_t taskTime);
 };
 
 

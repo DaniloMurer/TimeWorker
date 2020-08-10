@@ -7,7 +7,8 @@
 #include "iostream"
 #include <string>
 #include <vector>
-
+#include "iomanip"
+using namespace std;
 void TaskSerializer::serialize_object(Task *object) const {
     // Store elements from class
     int *id = object->get_id();
@@ -40,10 +41,43 @@ void TaskSerializer::deserialize_object(std::string *filePath) const {
                 continue;
             }
             splitData.push_back(line);
-            std::cout << splitData.size() <<std::endl;
+            cout << splitData.size() <<std::endl;
         }
     }
     fileStream.close();
 
-    //TODO: Process splitted data into tasks
+    this->convert_to_list(splitData);
 }
+
+std::list<Task> TaskSerializer::convert_to_list(std::vector<std::string> splitData) const {
+    std::list<Task> taskList;
+    int id;
+    string taskName;
+    int loggedHours;
+    time_t taskTime;
+
+    //TODO: Process splitted data into tasks
+    for (int i = 0; i < splitData.size() / 4; i++) {
+        for (int j = 0; j < 4; j++) {
+            switch(j) {
+                case 0:
+                    id = stoi(splitData[j]);
+                    break;
+                case 1:
+                    taskName = splitData[j];
+                    break;
+                case 2:
+                    loggedHours = stoi(splitData[j]);
+                    break;
+                case 3:
+                    break;
+            }
+        }
+        // Create new Task and push it to the list
+        Task *task = new Task(id, taskName, loggedHours, taskTime);
+        taskList.push_front(*task);
+    }
+    return std::list<Task>();
+}
+
+
