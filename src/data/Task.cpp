@@ -32,8 +32,14 @@ Task::~Task() {
 
 Task::Task(std::string taskName) {
     Task::taskName = &taskName;
-    int id = rand() % 1000000 + 1;
-    Task::id = &id;
+
+    // Create random number using random library
+    random_device rd;
+    mt19937 mt(rd());
+    std::uniform_real_distribution<double> dist(1.0, 1000000.0);
+    int randomNumber = dist(mt);
+
+    Task::id = &randomNumber;
     Task::loggedHours = new int(0);
     time_t time = std::time(0);
     Task::taskTime = &time;
