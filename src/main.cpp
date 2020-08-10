@@ -1,11 +1,11 @@
 #include <iostream>
 #include "data/Task.h"
-
+#include "core/TaskSerializer.h"
 int main() {
 
-    std::string todo;
-    std:: cout << "Enter command: create task / start task / stop task" << std::endl;
-    std:: cin >> todo;
-    std:: cout << todo;
+    Task *task = new Task("Test123");
+    TaskSerializer *taskSerializer = new TaskSerializer();
+
+    taskSerializer->serialize_object(task);
     return 0;
 }

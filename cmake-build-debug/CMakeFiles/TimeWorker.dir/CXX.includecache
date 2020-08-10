@@ -6,15 +6,23 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/core/AbstractSerializer.h
+
+C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/core/TaskSerializer.cpp
+TaskSerializer.h
+C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/core/TaskSerializer.h
+fstream
+C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/core/fstream
+
+C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/core/TaskSerializer.h
+AbstractSerializer.h
+C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/core/AbstractSerializer.h
+../data/Task.h
+C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/data/Task.h
+
 C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/data/Task.h
 iostream
 -
 ctime
 -
-
-C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/main.cpp
-iostream
--
-data/Task.h
-C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/data/Task.h
 

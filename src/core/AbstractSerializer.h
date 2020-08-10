@@ -8,8 +8,8 @@
 template <typename T>
 class AbstractSerializer {
 public:
-    virtual void serialize_object(T object) const = 0;
-    virtual void deserialize_object(T object) const = 0;
+    virtual void serialize_object(T *object) const = 0;
+    virtual void deserialize_object(T *object) const = 0;
 };
 
 #endif //TIMEWORKER_ABSTRACTSERIALIZER_H

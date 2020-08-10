@@ -24,7 +24,7 @@ public:
      */
     ~Task();
 
-    Task(std::string taskName);
+    explicit Task(std::string taskName);
 };
 
 

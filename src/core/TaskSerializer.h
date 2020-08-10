@@ -11,9 +11,9 @@
 
 class TaskSerializer : public AbstractSerializer<Task> {
 public:
-    void serialize_object(Task object) const override;
+    void serialize_object(Task *object) const override;
 
-    void deserialize_object(Task object) const override;
+    void deserialize_object(Task *object) const override;
 };
 
 
