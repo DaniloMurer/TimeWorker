@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/TimeWorker.dir/src/core/AbstractSerializer.cpp.obj"
   "CMakeFiles/TimeWorker.dir/src/core/TaskSerializer.cpp.obj"
   "CMakeFiles/TimeWorker.dir/src/data/Task.cpp.obj"
+  "CMakeFiles/TimeWorker.dir/src/interface/AbstractUserInterface.cpp.obj"
   "CMakeFiles/TimeWorker.dir/src/main.cpp.obj"
   "TimeWorker.exe"
   "TimeWorker.exe.manifest"

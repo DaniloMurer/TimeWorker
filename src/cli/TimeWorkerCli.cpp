@@ -4,6 +4,6 @@
 
 #include "TimeWorkerCli.h"
 
-void TimeWorkerCli::start() {
+void TimeWorkerCli::start() const {
 
 }

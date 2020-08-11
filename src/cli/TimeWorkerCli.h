@@ -6,12 +6,11 @@
 #define TIMEWORKER_TIMEWORKERCLI_H
 
 
-class TimeWorkerCli {
+#include "../interface/AbstractUserInterface.h"
+
+class TimeWorkerCli : public AbstractUserInterface {
 public:
-    /**
-     * Start CLI interface
-     */
-    void start();
+    void start() const override;
 };
 
 
