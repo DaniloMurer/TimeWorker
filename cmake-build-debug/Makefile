@@ -203,6 +203,33 @@ src/core/TaskSerializer.cpp.s:
 	$(MAKE) -f CMakeFiles\TimeWorker.dir\build.make CMakeFiles/TimeWorker.dir/src/core/TaskSerializer.cpp.s
 .PHONY : src/core/TaskSerializer.cpp.s
 
+src/core/util/DateConverter.obj: src/core/util/DateConverter.cpp.obj
+
+.PHONY : src/core/util/DateConverter.obj
+
+# target to build an object file
+src/core/util/DateConverter.cpp.obj:
+	$(MAKE) -f CMakeFiles\TimeWorker.dir\build.make CMakeFiles/TimeWorker.dir/src/core/util/DateConverter.cpp.obj
+.PHONY : src/core/util/DateConverter.cpp.obj
+
+src/core/util/DateConverter.i: src/core/util/DateConverter.cpp.i
+
+.PHONY : src/core/util/DateConverter.i
+
+# target to preprocess a source file
+src/core/util/DateConverter.cpp.i:
+	$(MAKE) -f CMakeFiles\TimeWorker.dir\build.make CMakeFiles/TimeWorker.dir/src/core/util/DateConverter.cpp.i
+.PHONY : src/core/util/DateConverter.cpp.i
+
+src/core/util/DateConverter.s: src/core/util/DateConverter.cpp.s
+
+.PHONY : src/core/util/DateConverter.s
+
+# target to generate assembly for a file
+src/core/util/DateConverter.cpp.s:
+	$(MAKE) -f CMakeFiles\TimeWorker.dir\build.make CMakeFiles/TimeWorker.dir/src/core/util/DateConverter.cpp.s
+.PHONY : src/core/util/DateConverter.cpp.s
+
 src/data/Task.obj: src/data/Task.cpp.obj
 
 .PHONY : src/data/Task.obj
@@ -302,6 +329,9 @@ help:
 	@echo ... src/core/TaskSerializer.obj
 	@echo ... src/core/TaskSerializer.i
 	@echo ... src/core/TaskSerializer.s
+	@echo ... src/core/util/DateConverter.obj
+	@echo ... src/core/util/DateConverter.i
+	@echo ... src/core/util/DateConverter.s
 	@echo ... src/data/Task.obj
 	@echo ... src/data/Task.i
 	@echo ... src/data/Task.s

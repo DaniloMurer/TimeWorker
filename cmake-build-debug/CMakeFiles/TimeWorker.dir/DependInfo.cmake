@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/cli/TimeWorkerCli.cpp" "C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/cmake-build-debug/CMakeFiles/TimeWorker.dir/src/cli/TimeWorkerCli.cpp.obj"
   "C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/core/AbstractSerializer.cpp" "C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/cmake-build-debug/CMakeFiles/TimeWorker.dir/src/core/AbstractSerializer.cpp.obj"
   "C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/core/TaskSerializer.cpp" "C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/cmake-build-debug/CMakeFiles/TimeWorker.dir/src/core/TaskSerializer.cpp.obj"
+  "C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/core/util/DateConverter.cpp" "C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/cmake-build-debug/CMakeFiles/TimeWorker.dir/src/core/util/DateConverter.cpp.obj"
   "C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/data/Task.cpp" "C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/cmake-build-debug/CMakeFiles/TimeWorker.dir/src/data/Task.cpp.obj"
   "C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/interface/AbstractUserInterface.cpp" "C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/cmake-build-debug/CMakeFiles/TimeWorker.dir/src/interface/AbstractUserInterface.cpp.obj"
   "C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/main.cpp" "C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/cmake-build-debug/CMakeFiles/TimeWorker.dir/src/main.cpp.obj"

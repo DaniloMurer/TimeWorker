@@ -8,6 +8,8 @@
 #include <string>
 #include <vector>
 #include "iomanip"
+#include "util/DateConverter.h"
+
 using namespace std;
 void TaskSerializer::serialize_object(Task *object) const {
     // Store elements from class
@@ -59,6 +61,8 @@ std::list<Task> TaskSerializer::convert_to_list(std::vector<std::string> splitDa
     int loggedHours;
     time_t taskTime;
 
+    DateConverter *dateConverter = new DateConverter;
+
     //TODO: Process splitted data into tasks
     for (int i = 0; i < splitData.size() / 4; i++) {
         for (int j = 0; j < 4; j++) {
@@ -73,6 +77,7 @@ std::list<Task> TaskSerializer::convert_to_list(std::vector<std::string> splitDa
                     loggedHours = stoi(splitData[j]);
                     break;
                 case 3:
+                    taskTime = dateConverter->convert_string_to_date(splitData[j]);
                     break;
             }
         }

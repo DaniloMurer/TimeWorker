@@ -6,8 +6,7 @@
 #include "cli/TimeWorkerCli.h"
 
 int main() {
-    char* name = "Test123";
-    Task *task = new Task(name);
+    Task *task = new Task("name");
     // Create Serialize Interface
     AbstractUserInterface *userInterface = new TimeWorkerCli();
     // Start the interface
