@@ -12,7 +12,10 @@
 using namespace std;
 class DateConverter {
 public:
-    time_t convert_string_to_date(string stringDate);
+    /**
+     * Convert date string to @class time_t
+     */
+    static time_t convert_string_to_date(string stringDate);
 };
 
 

@@ -77,7 +77,7 @@ std::list<Task> TaskSerializer::convert_to_list(std::vector<std::string> splitDa
                     loggedHours = stoi(splitData[j]);
                     break;
                 case 3:
-                    taskTime = dateConverter->convert_string_to_date(splitData[j]);
+                    taskTime = DateConverter::convert_string_to_date(splitData[j]);
                     break;
             }
         }

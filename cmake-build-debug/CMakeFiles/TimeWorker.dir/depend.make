@@ -3,6 +3,7 @@
 
 CMakeFiles/TimeWorker.dir/src/cli/TimeWorkerCli.cpp.obj: ../src/cli/TimeWorkerCli.cpp
 CMakeFiles/TimeWorker.dir/src/cli/TimeWorkerCli.cpp.obj: ../src/cli/TimeWorkerCli.h
+CMakeFiles/TimeWorker.dir/src/cli/TimeWorkerCli.cpp.obj: ../src/interface/AbstractUserInterface.h
 
 CMakeFiles/TimeWorker.dir/src/core/AbstractSerializer.cpp.obj: ../src/core/AbstractSerializer.cpp
 CMakeFiles/TimeWorker.dir/src/core/AbstractSerializer.cpp.obj: ../src/core/AbstractSerializer.h
@@ -10,13 +11,22 @@ CMakeFiles/TimeWorker.dir/src/core/AbstractSerializer.cpp.obj: ../src/core/Abstr
 CMakeFiles/TimeWorker.dir/src/core/TaskSerializer.cpp.obj: ../src/core/AbstractSerializer.h
 CMakeFiles/TimeWorker.dir/src/core/TaskSerializer.cpp.obj: ../src/core/TaskSerializer.cpp
 CMakeFiles/TimeWorker.dir/src/core/TaskSerializer.cpp.obj: ../src/core/TaskSerializer.h
+CMakeFiles/TimeWorker.dir/src/core/TaskSerializer.cpp.obj: ../src/core/util/DateConverter.h
 CMakeFiles/TimeWorker.dir/src/core/TaskSerializer.cpp.obj: ../src/data/Task.h
+
+CMakeFiles/TimeWorker.dir/src/core/util/DateConverter.cpp.obj: ../src/core/util/DateConverter.cpp
+CMakeFiles/TimeWorker.dir/src/core/util/DateConverter.cpp.obj: ../src/core/util/DateConverter.h
 
 CMakeFiles/TimeWorker.dir/src/data/Task.cpp.obj: ../src/data/Task.cpp
 CMakeFiles/TimeWorker.dir/src/data/Task.cpp.obj: ../src/data/Task.h
 
+CMakeFiles/TimeWorker.dir/src/interface/AbstractUserInterface.cpp.obj: ../src/interface/AbstractUserInterface.cpp
+CMakeFiles/TimeWorker.dir/src/interface/AbstractUserInterface.cpp.obj: ../src/interface/AbstractUserInterface.h
+
+CMakeFiles/TimeWorker.dir/src/main.cpp.obj: ../src/cli/TimeWorkerCli.h
 CMakeFiles/TimeWorker.dir/src/main.cpp.obj: ../src/core/AbstractSerializer.h
 CMakeFiles/TimeWorker.dir/src/main.cpp.obj: ../src/core/TaskSerializer.h
 CMakeFiles/TimeWorker.dir/src/main.cpp.obj: ../src/data/Task.h
+CMakeFiles/TimeWorker.dir/src/main.cpp.obj: ../src/interface/AbstractUserInterface.h
 CMakeFiles/TimeWorker.dir/src/main.cpp.obj: ../src/main.cpp
 
