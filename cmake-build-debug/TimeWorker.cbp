@@ -104,6 +104,12 @@
 		<Unit filename="C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/core/util/DateConverter.h">
 			<Option target="TimeWorker"/>
 		</Unit>
+		<Unit filename="C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/core/util/SmartPointer.cpp">
+			<Option target="TimeWorker"/>
+		</Unit>
+		<Unit filename="C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/core/util/SmartPointer.h">
+			<Option target="TimeWorker"/>
+		</Unit>
 		<Unit filename="C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/data/Task.cpp">
 			<Option target="TimeWorker"/>
 		</Unit>

@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/cli/TimeWorkerCli.cpp
-TimeWorkerCli.h
-C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/cli/TimeWorkerCli.h
-
 C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/cli/TimeWorkerCli.h
 ../interface/AbstractUserInterface.h
 C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/interface/AbstractUserInterface.h
@@ -57,10 +53,6 @@ iostream
 -
 ctime
 -
-
-C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/interface/AbstractUserInterface.cpp
-AbstractUserInterface.h
-C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/interface/AbstractUserInterface.h
 
 C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/interface/AbstractUserInterface.h
 
