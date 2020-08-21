@@ -18,6 +18,9 @@ int main() {
     taskSerializer->serialize_object(task);
     //taskSerializer->deserialize_object(filePathPointer);
 
+    // Delete pointer references
+    delete userInterface;
+    delete taskSerializer;
 
     return 0;
 }

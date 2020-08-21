@@ -7,7 +7,6 @@
 template<typename T>
 void SmartPointer<T>::clearPointer() const {
     delete actualPointer;
-    actualPointer = nullptr;
 }
 
 template<typename T>

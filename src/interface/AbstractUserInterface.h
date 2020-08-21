@@ -9,6 +9,9 @@
 class AbstractUserInterface {
 public:
     virtual void start() const = 0;
+    virtual ~AbstractUserInterface() {
+        delete this;
+    }
 };
 
 
