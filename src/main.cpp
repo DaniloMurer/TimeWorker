@@ -15,8 +15,8 @@ int main() {
     std::string appData = getenv("APPDATA");
     std::string filePath = appData + "/timeworker.data";
     std::string *filePathPointer = &filePath;
-    taskSerializer->serialize_object(task);
-    //taskSerializer->deserialize_object(filePathPointer);
+    //taskSerializer->serialize_object(task);
+    taskSerializer->deserialize_object(filePathPointer);
 
     // Delete pointer references
     delete userInterface;

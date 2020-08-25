@@ -21,10 +21,6 @@ void TaskSerializer::serialize_object(Task *object) const {
     std::string timeString = ctime(time);
     // Get the AppData Folder
     std::string appData = getenv("APPDATA");
-    cout << *taskName << endl;
-    cout << *loggedHours << endl;
-    cout << ctime(reinterpret_cast<const time_t *>(*time)) << endl;
-    cout << *id << endl;
     // Write data to file
     std::ofstream fileStream;
     fileStream.open(appData + "/timeworker.data", std::ios::app);
@@ -46,7 +42,6 @@ void TaskSerializer::deserialize_object(std::string *filePath) const {
                 continue;
             }
             splitData.push_back(line);
-            cout << splitData.size() <<std::endl;
         }
     }
     fileStream.close();
@@ -78,6 +73,7 @@ std::list<Task> TaskSerializer::convert_to_list(std::vector<std::string> splitDa
                     break;
                 case 3:
                     taskTime = DateConverter::convert_string_to_date(splitData[j]);
+                    cout << taskTime;
                     break;
             }
         }

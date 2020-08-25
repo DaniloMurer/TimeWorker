@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/cli/TimeWorkerCli.h
-../interface/AbstractUserInterface.h
-C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/interface/AbstractUserInterface.h
-
 C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/core/AbstractSerializer.h
 
 C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/core/TaskSerializer.cpp
@@ -38,10 +34,6 @@ C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/data/Task.h
 list
 C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/core/list
 
-C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/core/util/DateConverter.cpp
-DateConverter.h
-C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/core/util/DateConverter.h
-
 C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/core/util/DateConverter.h
 ctime
 -
@@ -53,20 +45,4 @@ iostream
 -
 ctime
 -
-
-C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/interface/AbstractUserInterface.h
-
-C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/main.cpp
-iostream
--
-data/Task.h
-C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/data/Task.h
-core/TaskSerializer.h
-C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/core/TaskSerializer.h
-string
-C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/string
-interface/AbstractUserInterface.h
-C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/interface/AbstractUserInterface.h
-cli/TimeWorkerCli.h
-C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/cli/TimeWorkerCli.h
 

@@ -9,8 +9,8 @@ time_t DateConverter::convert_string_to_date(string stringDate) {
     time_t rawTime;
     time ( &rawTime );
     tm = *localtime ( &rawTime );
-    tm.tm_year = tm.tm_year - 1900;
-    tm.tm_mon = tm.tm_mon - 1;
+    tm.tm_year = tm.tm_year;
+    tm.tm_mon = tm.tm_mon;
     tm.tm_mday = tm.tm_mday;
     return mktime(&tm);
 }

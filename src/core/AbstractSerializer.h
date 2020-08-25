@@ -24,10 +24,6 @@ public:
      * @param filePath File path to the serialized object
      */
     virtual void deserialize_object(V *filePath) const = 0;
-
-    virtual ~AbstractSerializer() {
-        delete this;
-    }
 };
 
 #endif //TIMEWORKER_ABSTRACTSERIALIZER_H
