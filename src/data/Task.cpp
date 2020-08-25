@@ -41,8 +41,8 @@ Task::Task(std::string taskName) {
 
     Task::id = &randomNumber;
     Task::loggedHours = new int(0);
-    time_t time = std::time(0);
-    Task::taskTime = &time;
+    time_t tempTaskTime = time(NULL);
+    Task::taskTime = &tempTaskTime;
  }
 
 Task::Task(int id, std::string taskName, int loggedHours, time_t taskTime) {

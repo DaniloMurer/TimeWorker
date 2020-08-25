@@ -5,6 +5,7 @@
 #include "TaskSerializer.h"
 #include "fstream"
 #include "iostream"
+#include <time.h>
 #include <string>
 #include <vector>
 #include "iomanip"
@@ -14,34 +15,30 @@ using namespace std;
 void TaskSerializer::serialize_object(Task *object) const {
     // Store elements from class
     int *id = object->get_id();
-    std::string *taskName = object->get_name();
+    string taskName = "tasl214";
     int *loggedHours = object->get_logged_time();
     time_t *time = object->get_time();
     // Convert time to string
-    std::string timeString = ctime(time);
+    string timeString = ctime(time);
     // Get the AppData Folder
-    std::string appData = getenv("APPDATA");
-    cout << *taskName << endl;
-    cout << *loggedHours << endl;
-    cout << ctime(reinterpret_cast<const time_t *>(*time)) << endl;
-    cout << *id << endl;
+    string appData = getenv("APPDATA");
     // Write data to file
-    std::ofstream fileStream;
-    fileStream.open(appData + "/timeworker.data", std::ios::app);
+    ofstream fileStream;
+    fileStream.open(appData + "/timeworker.data", ios::app);
 
-    fileStream << "," + std::to_string(*id) + "," + *taskName + "," + std::to_string(*loggedHours) + "," + timeString;
+    fileStream << "," + to_string(*id) + "," + taskName + "," + to_string(*loggedHours) + "," + to_string(DateConverter::convert_date_to_long_int(*time)) << endl;
     fileStream.close();
 }
 
-void TaskSerializer::deserialize_object(std::string *filePath) const {
+void TaskSerializer::deserialize_object(string *filePath) const {
     std::string appData = getenv("APPDATA");
     std::fstream fileStream;
     fileStream.open(*filePath);
     std::vector<std::string> splitData;
 
     if (fileStream.is_open()) {
-        std::string line;
-        while (std::getline(fileStream, line, ',')) {
+        string line;
+        while (getline(fileStream, line, ',')) {
             if (line.empty()) {
                 continue;
             }
@@ -54,14 +51,12 @@ void TaskSerializer::deserialize_object(std::string *filePath) const {
     this->convert_to_list(splitData);
 }
 
-std::list<Task> TaskSerializer::convert_to_list(std::vector<std::string> splitData) const {
-    std::list<Task> taskList;
+list<Task> TaskSerializer::convert_to_list(vector<string> splitData) const {
+    list<Task> taskList;
     int id;
     string taskName;
     int loggedHours;
     time_t taskTime;
-
-    DateConverter *dateConverter = new DateConverter;
 
     //TODO: Process splitted data into tasks
     for (int i = 0; i < splitData.size() / 4; i++) {
@@ -77,7 +72,8 @@ std::list<Task> TaskSerializer::convert_to_list(std::vector<std::string> splitDa
                     loggedHours = stoi(splitData[j]);
                     break;
                 case 3:
-                    taskTime = DateConverter::convert_string_to_date(splitData[j]);
+                    taskTime = DateConverter::convert_long_int_to_date(stol(splitData[j]));
+                    cout << ctime(&taskTime);
                     break;
             }
         }
@@ -85,7 +81,7 @@ std::list<Task> TaskSerializer::convert_to_list(std::vector<std::string> splitDa
         Task *task = new Task(id, taskName, loggedHours, taskTime);
         taskList.push_front(*task);
     }
-    return std::list<Task>();
+    return taskList;
 }
 
 

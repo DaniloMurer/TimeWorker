@@ -4,13 +4,10 @@
 
 #include "DateConverter.h"
 
-time_t DateConverter::convert_string_to_date(string stringDate) {
-    struct tm  tm{};
-    time_t rawTime;
-    time ( &rawTime );
-    tm = *localtime ( &rawTime );
-    tm.tm_year = tm.tm_year - 1900;
-    tm.tm_mon = tm.tm_mon - 1;
-    tm.tm_mday = tm.tm_mday;
-    return mktime(&tm);
+time_t DateConverter::convert_long_int_to_date(long int dateLong) {
+    return static_cast<time_t>(dateLong);
+}
+
+long int DateConverter::convert_date_to_long_int(time_t date) {
+    return static_cast<long int>(date);
 }

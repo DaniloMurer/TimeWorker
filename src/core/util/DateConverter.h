@@ -15,7 +15,9 @@ public:
     /**
      * Convert date string to @class time_t
      */
-    static time_t convert_string_to_date(string stringDate);
+    static time_t convert_long_int_to_date(long int longDate);
+
+    static long int convert_date_to_long_int(time_t date);
 };
 
 

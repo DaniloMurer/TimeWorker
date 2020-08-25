@@ -6,67 +6,41 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/cli/TimeWorkerCli.h
+E:/Dokumente/Applikationen/TimeWorker/src/cli/TimeWorkerCli.h
 ../interface/AbstractUserInterface.h
-C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/interface/AbstractUserInterface.h
+E:/Dokumente/Applikationen/TimeWorker/src/interface/AbstractUserInterface.h
 
-C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/core/AbstractSerializer.h
+E:/Dokumente/Applikationen/TimeWorker/src/core/AbstractSerializer.h
 
-C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/core/TaskSerializer.cpp
-TaskSerializer.h
-C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/core/TaskSerializer.h
-fstream
-C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/core/fstream
-iostream
-C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/core/iostream
-string
--
-vector
--
-iomanip
-C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/core/iomanip
-util/DateConverter.h
-C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/core/util/DateConverter.h
-
-C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/core/TaskSerializer.h
+E:/Dokumente/Applikationen/TimeWorker/src/core/TaskSerializer.h
 vector
 -
 AbstractSerializer.h
-C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/core/AbstractSerializer.h
+E:/Dokumente/Applikationen/TimeWorker/src/core/AbstractSerializer.h
 ../data/Task.h
-C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/data/Task.h
+E:/Dokumente/Applikationen/TimeWorker/src/data/Task.h
 list
-C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/core/list
+E:/Dokumente/Applikationen/TimeWorker/src/core/list
 
-C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/core/util/DateConverter.cpp
-DateConverter.h
-C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/core/util/DateConverter.h
-
-C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/core/util/DateConverter.h
-ctime
--
-string
-C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/core/util/string
-
-C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/data/Task.h
+E:/Dokumente/Applikationen/TimeWorker/src/data/Task.h
 iostream
 -
 ctime
 -
 
-C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/interface/AbstractUserInterface.h
+E:/Dokumente/Applikationen/TimeWorker/src/interface/AbstractUserInterface.h
 
-C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/main.cpp
+E:/Dokumente/Applikationen/TimeWorker/src/main.cpp
 iostream
 -
 data/Task.h
-C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/data/Task.h
+E:/Dokumente/Applikationen/TimeWorker/src/data/Task.h
 core/TaskSerializer.h
-C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/core/TaskSerializer.h
+E:/Dokumente/Applikationen/TimeWorker/src/core/TaskSerializer.h
 string
-C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/string
+E:/Dokumente/Applikationen/TimeWorker/src/string
 interface/AbstractUserInterface.h
-C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/interface/AbstractUserInterface.h
+E:/Dokumente/Applikationen/TimeWorker/src/interface/AbstractUserInterface.h
 cli/TimeWorkerCli.h
-C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/cli/TimeWorkerCli.h
+E:/Dokumente/Applikationen/TimeWorker/src/cli/TimeWorkerCli.h
 
