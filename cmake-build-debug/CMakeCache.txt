@@ -186,7 +186,11 @@ CMAKE_RC_FLAGS_RELEASE:STRING=
 CMAKE_RC_FLAGS_RELWITHDEBINFO:STRING=
 
 //Path to a program.
+<<<<<<< HEAD
 CMAKE_READELF:FILEPATH=E:/Programme/MinGw/bin/readelf.exe
+=======
+CMAKE_READELF:FILEPATH=C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/readelf.exe
+>>>>>>> 83f2b120207bd08c50dc86cdd2713f38af585a44
 
 //Flags used by the linker during the creation of shared libraries
 // during all build types.
@@ -388,7 +392,11 @@ CMAKE_RC_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_READELF
 CMAKE_READELF-ADVANCED:INTERNAL=1
 //Path to CMake installation.
+<<<<<<< HEAD
 CMAKE_ROOT:INTERNAL=F:/Programme/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/bin/cmake/win/share/cmake-3.17
+=======
+CMAKE_ROOT:INTERNAL=C:/Program Files/JetBrains/CLion 2019.3.4/bin/cmake/win/share/cmake-3.17
+>>>>>>> 83f2b120207bd08c50dc86cdd2713f38af585a44
 //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS
 CMAKE_SHARED_LINKER_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS_DEBUG

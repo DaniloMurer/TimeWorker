@@ -15,11 +15,19 @@ CMakeFiles/TimeWorker.dir/src/core/TaskSerializer.cpp.obj
  E:/Dokumente/Applikationen/TimeWorker/src/core/util/DateConverter.h
  E:/Dokumente/Applikationen/TimeWorker/src/data/Task.h
 CMakeFiles/TimeWorker.dir/src/core/util/DateConverter.cpp.obj
+<<<<<<< HEAD
  E:/Dokumente/Applikationen/TimeWorker/src/core/util/DateConverter.cpp
  E:/Dokumente/Applikationen/TimeWorker/src/core/util/DateConverter.h
 CMakeFiles/TimeWorker.dir/src/core/util/SmartPointer.cpp.obj
  E:/Dokumente/Applikationen/TimeWorker/src/core/util/SmartPointer.cpp
  E:/Dokumente/Applikationen/TimeWorker/src/core/util/SmartPointer.h
+=======
+ C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/core/util/DateConverter.cpp
+ C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/core/util/DateConverter.h
+CMakeFiles/TimeWorker.dir/src/core/util/SmartPointer.cpp.obj
+ C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/core/util/SmartPointer.cpp
+ C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/core/util/SmartPointer.h
+>>>>>>> 83f2b120207bd08c50dc86cdd2713f38af585a44
 CMakeFiles/TimeWorker.dir/src/data/Task.cpp.obj
  E:/Dokumente/Applikationen/TimeWorker/src/data/Task.cpp
  E:/Dokumente/Applikationen/TimeWorker/src/data/Task.h
