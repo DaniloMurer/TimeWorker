@@ -13,6 +13,4 @@ The third and (hopefully) last version will be implementing some sort of batch s
 
 If you want to contribute to this repository there is no need to have any experience in C++, as far as I am concerned I don't have much experience either :).
 
-For Issue and task tracking there is a public Trello board to follow the development: [Trello Board](https://trello.com/b/alpzvTem/timeworker).
-
-Issues can be opened in GitHub, those will be then transfered into the Trello Board for development.
+If you're new to TimeWorker or contributing in general, feel free to open issues and ask questions. Otherwise you can try to solve issues which are marked as "good-first-issue", those should be fairly simple.
