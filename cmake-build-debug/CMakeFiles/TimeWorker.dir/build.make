@@ -53,19 +53,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = F:\Programme\JetBrains\Toolbox\apps\CLion\ch-0\202.6397.106\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = F:\Programme\JetBrains\Toolbox\apps\CLion\ch-0\202.6397.106\bin\cmake\win\bin\cmake.exe -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\Dokumente\Applikationen\TimeWorker
+CMAKE_SOURCE_DIR = C:\Users\JADA\Documents\Applikationen\C++\TimeWorker
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\Dokumente\Applikationen\TimeWorker\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\JADA\Documents\Applikationen\C++\TimeWorker\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/TimeWorker.dir/depend.make
@@ -78,107 +78,107 @@ include CMakeFiles/TimeWorker.dir/flags.make
 
 CMakeFiles/TimeWorker.dir/src/main.cpp.obj: CMakeFiles/TimeWorker.dir/flags.make
 CMakeFiles/TimeWorker.dir/src/main.cpp.obj: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Dokumente\Applikationen\TimeWorker\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TimeWorker.dir/src/main.cpp.obj"
-	E:\Programme\MinGw\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TimeWorker.dir\src\main.cpp.obj -c E:\Dokumente\Applikationen\TimeWorker\src\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\JADA\Documents\Applikationen\C++\TimeWorker\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TimeWorker.dir/src/main.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TimeWorker.dir\src\main.cpp.obj -c C:\Users\JADA\Documents\Applikationen\C++\TimeWorker\src\main.cpp
 
 CMakeFiles/TimeWorker.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TimeWorker.dir/src/main.cpp.i"
-	E:\Programme\MinGw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Dokumente\Applikationen\TimeWorker\src\main.cpp > CMakeFiles\TimeWorker.dir\src\main.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\JADA\Documents\Applikationen\C++\TimeWorker\src\main.cpp > CMakeFiles\TimeWorker.dir\src\main.cpp.i
 
 CMakeFiles/TimeWorker.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TimeWorker.dir/src/main.cpp.s"
-	E:\Programme\MinGw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Dokumente\Applikationen\TimeWorker\src\main.cpp -o CMakeFiles\TimeWorker.dir\src\main.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\JADA\Documents\Applikationen\C++\TimeWorker\src\main.cpp -o CMakeFiles\TimeWorker.dir\src\main.cpp.s
 
 CMakeFiles/TimeWorker.dir/src/data/Task.cpp.obj: CMakeFiles/TimeWorker.dir/flags.make
 CMakeFiles/TimeWorker.dir/src/data/Task.cpp.obj: ../src/data/Task.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Dokumente\Applikationen\TimeWorker\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TimeWorker.dir/src/data/Task.cpp.obj"
-	E:\Programme\MinGw\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TimeWorker.dir\src\data\Task.cpp.obj -c E:\Dokumente\Applikationen\TimeWorker\src\data\Task.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\JADA\Documents\Applikationen\C++\TimeWorker\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TimeWorker.dir/src/data/Task.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TimeWorker.dir\src\data\Task.cpp.obj -c C:\Users\JADA\Documents\Applikationen\C++\TimeWorker\src\data\Task.cpp
 
 CMakeFiles/TimeWorker.dir/src/data/Task.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TimeWorker.dir/src/data/Task.cpp.i"
-	E:\Programme\MinGw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Dokumente\Applikationen\TimeWorker\src\data\Task.cpp > CMakeFiles\TimeWorker.dir\src\data\Task.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\JADA\Documents\Applikationen\C++\TimeWorker\src\data\Task.cpp > CMakeFiles\TimeWorker.dir\src\data\Task.cpp.i
 
 CMakeFiles/TimeWorker.dir/src/data/Task.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TimeWorker.dir/src/data/Task.cpp.s"
-	E:\Programme\MinGw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Dokumente\Applikationen\TimeWorker\src\data\Task.cpp -o CMakeFiles\TimeWorker.dir\src\data\Task.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\JADA\Documents\Applikationen\C++\TimeWorker\src\data\Task.cpp -o CMakeFiles\TimeWorker.dir\src\data\Task.cpp.s
 
 CMakeFiles/TimeWorker.dir/src/core/AbstractSerializer.cpp.obj: CMakeFiles/TimeWorker.dir/flags.make
 CMakeFiles/TimeWorker.dir/src/core/AbstractSerializer.cpp.obj: ../src/core/AbstractSerializer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Dokumente\Applikationen\TimeWorker\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TimeWorker.dir/src/core/AbstractSerializer.cpp.obj"
-	E:\Programme\MinGw\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TimeWorker.dir\src\core\AbstractSerializer.cpp.obj -c E:\Dokumente\Applikationen\TimeWorker\src\core\AbstractSerializer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\JADA\Documents\Applikationen\C++\TimeWorker\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TimeWorker.dir/src/core/AbstractSerializer.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TimeWorker.dir\src\core\AbstractSerializer.cpp.obj -c C:\Users\JADA\Documents\Applikationen\C++\TimeWorker\src\core\AbstractSerializer.cpp
 
 CMakeFiles/TimeWorker.dir/src/core/AbstractSerializer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TimeWorker.dir/src/core/AbstractSerializer.cpp.i"
-	E:\Programme\MinGw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Dokumente\Applikationen\TimeWorker\src\core\AbstractSerializer.cpp > CMakeFiles\TimeWorker.dir\src\core\AbstractSerializer.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\JADA\Documents\Applikationen\C++\TimeWorker\src\core\AbstractSerializer.cpp > CMakeFiles\TimeWorker.dir\src\core\AbstractSerializer.cpp.i
 
 CMakeFiles/TimeWorker.dir/src/core/AbstractSerializer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TimeWorker.dir/src/core/AbstractSerializer.cpp.s"
-	E:\Programme\MinGw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Dokumente\Applikationen\TimeWorker\src\core\AbstractSerializer.cpp -o CMakeFiles\TimeWorker.dir\src\core\AbstractSerializer.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\JADA\Documents\Applikationen\C++\TimeWorker\src\core\AbstractSerializer.cpp -o CMakeFiles\TimeWorker.dir\src\core\AbstractSerializer.cpp.s
 
 CMakeFiles/TimeWorker.dir/src/core/TaskSerializer.cpp.obj: CMakeFiles/TimeWorker.dir/flags.make
 CMakeFiles/TimeWorker.dir/src/core/TaskSerializer.cpp.obj: ../src/core/TaskSerializer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Dokumente\Applikationen\TimeWorker\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TimeWorker.dir/src/core/TaskSerializer.cpp.obj"
-	E:\Programme\MinGw\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TimeWorker.dir\src\core\TaskSerializer.cpp.obj -c E:\Dokumente\Applikationen\TimeWorker\src\core\TaskSerializer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\JADA\Documents\Applikationen\C++\TimeWorker\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TimeWorker.dir/src/core/TaskSerializer.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TimeWorker.dir\src\core\TaskSerializer.cpp.obj -c C:\Users\JADA\Documents\Applikationen\C++\TimeWorker\src\core\TaskSerializer.cpp
 
 CMakeFiles/TimeWorker.dir/src/core/TaskSerializer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TimeWorker.dir/src/core/TaskSerializer.cpp.i"
-	E:\Programme\MinGw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Dokumente\Applikationen\TimeWorker\src\core\TaskSerializer.cpp > CMakeFiles\TimeWorker.dir\src\core\TaskSerializer.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\JADA\Documents\Applikationen\C++\TimeWorker\src\core\TaskSerializer.cpp > CMakeFiles\TimeWorker.dir\src\core\TaskSerializer.cpp.i
 
 CMakeFiles/TimeWorker.dir/src/core/TaskSerializer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TimeWorker.dir/src/core/TaskSerializer.cpp.s"
-	E:\Programme\MinGw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Dokumente\Applikationen\TimeWorker\src\core\TaskSerializer.cpp -o CMakeFiles\TimeWorker.dir\src\core\TaskSerializer.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\JADA\Documents\Applikationen\C++\TimeWorker\src\core\TaskSerializer.cpp -o CMakeFiles\TimeWorker.dir\src\core\TaskSerializer.cpp.s
 
 CMakeFiles/TimeWorker.dir/src/cli/TimeWorkerCli.cpp.obj: CMakeFiles/TimeWorker.dir/flags.make
 CMakeFiles/TimeWorker.dir/src/cli/TimeWorkerCli.cpp.obj: ../src/cli/TimeWorkerCli.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Dokumente\Applikationen\TimeWorker\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TimeWorker.dir/src/cli/TimeWorkerCli.cpp.obj"
-	E:\Programme\MinGw\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TimeWorker.dir\src\cli\TimeWorkerCli.cpp.obj -c E:\Dokumente\Applikationen\TimeWorker\src\cli\TimeWorkerCli.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\JADA\Documents\Applikationen\C++\TimeWorker\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TimeWorker.dir/src/cli/TimeWorkerCli.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TimeWorker.dir\src\cli\TimeWorkerCli.cpp.obj -c C:\Users\JADA\Documents\Applikationen\C++\TimeWorker\src\cli\TimeWorkerCli.cpp
 
 CMakeFiles/TimeWorker.dir/src/cli/TimeWorkerCli.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TimeWorker.dir/src/cli/TimeWorkerCli.cpp.i"
-	E:\Programme\MinGw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Dokumente\Applikationen\TimeWorker\src\cli\TimeWorkerCli.cpp > CMakeFiles\TimeWorker.dir\src\cli\TimeWorkerCli.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\JADA\Documents\Applikationen\C++\TimeWorker\src\cli\TimeWorkerCli.cpp > CMakeFiles\TimeWorker.dir\src\cli\TimeWorkerCli.cpp.i
 
 CMakeFiles/TimeWorker.dir/src/cli/TimeWorkerCli.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TimeWorker.dir/src/cli/TimeWorkerCli.cpp.s"
-	E:\Programme\MinGw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Dokumente\Applikationen\TimeWorker\src\cli\TimeWorkerCli.cpp -o CMakeFiles\TimeWorker.dir\src\cli\TimeWorkerCli.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\JADA\Documents\Applikationen\C++\TimeWorker\src\cli\TimeWorkerCli.cpp -o CMakeFiles\TimeWorker.dir\src\cli\TimeWorkerCli.cpp.s
 
 CMakeFiles/TimeWorker.dir/src/interface/AbstractUserInterface.cpp.obj: CMakeFiles/TimeWorker.dir/flags.make
 CMakeFiles/TimeWorker.dir/src/interface/AbstractUserInterface.cpp.obj: ../src/interface/AbstractUserInterface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Dokumente\Applikationen\TimeWorker\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/TimeWorker.dir/src/interface/AbstractUserInterface.cpp.obj"
-	E:\Programme\MinGw\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TimeWorker.dir\src\interface\AbstractUserInterface.cpp.obj -c E:\Dokumente\Applikationen\TimeWorker\src\interface\AbstractUserInterface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\JADA\Documents\Applikationen\C++\TimeWorker\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/TimeWorker.dir/src/interface/AbstractUserInterface.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TimeWorker.dir\src\interface\AbstractUserInterface.cpp.obj -c C:\Users\JADA\Documents\Applikationen\C++\TimeWorker\src\interface\AbstractUserInterface.cpp
 
 CMakeFiles/TimeWorker.dir/src/interface/AbstractUserInterface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TimeWorker.dir/src/interface/AbstractUserInterface.cpp.i"
-	E:\Programme\MinGw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Dokumente\Applikationen\TimeWorker\src\interface\AbstractUserInterface.cpp > CMakeFiles\TimeWorker.dir\src\interface\AbstractUserInterface.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\JADA\Documents\Applikationen\C++\TimeWorker\src\interface\AbstractUserInterface.cpp > CMakeFiles\TimeWorker.dir\src\interface\AbstractUserInterface.cpp.i
 
 CMakeFiles/TimeWorker.dir/src/interface/AbstractUserInterface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TimeWorker.dir/src/interface/AbstractUserInterface.cpp.s"
-	E:\Programme\MinGw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Dokumente\Applikationen\TimeWorker\src\interface\AbstractUserInterface.cpp -o CMakeFiles\TimeWorker.dir\src\interface\AbstractUserInterface.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\JADA\Documents\Applikationen\C++\TimeWorker\src\interface\AbstractUserInterface.cpp -o CMakeFiles\TimeWorker.dir\src\interface\AbstractUserInterface.cpp.s
 
 CMakeFiles/TimeWorker.dir/src/core/util/DateConverter.cpp.obj: CMakeFiles/TimeWorker.dir/flags.make
 CMakeFiles/TimeWorker.dir/src/core/util/DateConverter.cpp.obj: ../src/core/util/DateConverter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Dokumente\Applikationen\TimeWorker\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/TimeWorker.dir/src/core/util/DateConverter.cpp.obj"
-	E:\Programme\MinGw\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TimeWorker.dir\src\core\util\DateConverter.cpp.obj -c E:\Dokumente\Applikationen\TimeWorker\src\core\util\DateConverter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\JADA\Documents\Applikationen\C++\TimeWorker\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/TimeWorker.dir/src/core/util/DateConverter.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TimeWorker.dir\src\core\util\DateConverter.cpp.obj -c C:\Users\JADA\Documents\Applikationen\C++\TimeWorker\src\core\util\DateConverter.cpp
 
 CMakeFiles/TimeWorker.dir/src/core/util/DateConverter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TimeWorker.dir/src/core/util/DateConverter.cpp.i"
-	E:\Programme\MinGw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Dokumente\Applikationen\TimeWorker\src\core\util\DateConverter.cpp > CMakeFiles\TimeWorker.dir\src\core\util\DateConverter.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\JADA\Documents\Applikationen\C++\TimeWorker\src\core\util\DateConverter.cpp > CMakeFiles\TimeWorker.dir\src\core\util\DateConverter.cpp.i
 
 CMakeFiles/TimeWorker.dir/src/core/util/DateConverter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TimeWorker.dir/src/core/util/DateConverter.cpp.s"
-	E:\Programme\MinGw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Dokumente\Applikationen\TimeWorker\src\core\util\DateConverter.cpp -o CMakeFiles\TimeWorker.dir\src\core\util\DateConverter.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\JADA\Documents\Applikationen\C++\TimeWorker\src\core\util\DateConverter.cpp -o CMakeFiles\TimeWorker.dir\src\core\util\DateConverter.cpp.s
 
 CMakeFiles/TimeWorker.dir/src/core/util/SmartPointer.cpp.obj: CMakeFiles/TimeWorker.dir/flags.make
 CMakeFiles/TimeWorker.dir/src/core/util/SmartPointer.cpp.obj: ../src/core/util/SmartPointer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Dokumente\Applikationen\TimeWorker\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/TimeWorker.dir/src/core/util/SmartPointer.cpp.obj"
-	E:\Programme\MinGw\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TimeWorker.dir\src\core\util\SmartPointer.cpp.obj -c E:\Dokumente\Applikationen\TimeWorker\src\core\util\SmartPointer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\JADA\Documents\Applikationen\C++\TimeWorker\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/TimeWorker.dir/src/core/util/SmartPointer.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TimeWorker.dir\src\core\util\SmartPointer.cpp.obj -c C:\Users\JADA\Documents\Applikationen\C++\TimeWorker\src\core\util\SmartPointer.cpp
 
 CMakeFiles/TimeWorker.dir/src/core/util/SmartPointer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TimeWorker.dir/src/core/util/SmartPointer.cpp.i"
-	E:\Programme\MinGw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Dokumente\Applikationen\TimeWorker\src\core\util\SmartPointer.cpp > CMakeFiles\TimeWorker.dir\src\core\util\SmartPointer.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\JADA\Documents\Applikationen\C++\TimeWorker\src\core\util\SmartPointer.cpp > CMakeFiles\TimeWorker.dir\src\core\util\SmartPointer.cpp.i
 
 CMakeFiles/TimeWorker.dir/src/core/util/SmartPointer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TimeWorker.dir/src/core/util/SmartPointer.cpp.s"
-	E:\Programme\MinGw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Dokumente\Applikationen\TimeWorker\src\core\util\SmartPointer.cpp -o CMakeFiles\TimeWorker.dir\src\core\util\SmartPointer.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\JADA\Documents\Applikationen\C++\TimeWorker\src\core\util\SmartPointer.cpp -o CMakeFiles\TimeWorker.dir\src\core\util\SmartPointer.cpp.s
 
 # Object files for target TimeWorker
 TimeWorker_OBJECTS = \
@@ -194,23 +194,23 @@ TimeWorker_OBJECTS = \
 # External object files for target TimeWorker
 TimeWorker_EXTERNAL_OBJECTS =
 
-$(EQUALS)$(EQUALS)$(EQUALS)$(EQUALS)$(EQUALS)$(EQUALS)TimeWorker.exe: CMakeFiles/TimeWorker.dir/src/main.cpp.obj
-$(EQUALS)$(EQUALS)$(EQUALS)$(EQUALS)$(EQUALS)$(EQUALS)TimeWorker.exe: CMakeFiles/TimeWorker.dir/src/data/Task.cpp.obj
-$(EQUALS)$(EQUALS)$(EQUALS)$(EQUALS)$(EQUALS)$(EQUALS)TimeWorker.exe: CMakeFiles/TimeWorker.dir/src/core/AbstractSerializer.cpp.obj
-$(EQUALS)$(EQUALS)$(EQUALS)$(EQUALS)$(EQUALS)$(EQUALS)TimeWorker.exe: CMakeFiles/TimeWorker.dir/src/core/TaskSerializer.cpp.obj
-$(EQUALS)$(EQUALS)$(EQUALS)$(EQUALS)$(EQUALS)$(EQUALS)TimeWorker.exe: CMakeFiles/TimeWorker.dir/src/cli/TimeWorkerCli.cpp.obj
-$(EQUALS)$(EQUALS)$(EQUALS)$(EQUALS)$(EQUALS)$(EQUALS)TimeWorker.exe: CMakeFiles/TimeWorker.dir/src/interface/AbstractUserInterface.cpp.obj
-$(EQUALS)$(EQUALS)$(EQUALS)$(EQUALS)$(EQUALS)$(EQUALS)TimeWorker.exe: CMakeFiles/TimeWorker.dir/src/core/util/DateConverter.cpp.obj
-$(EQUALS)$(EQUALS)$(EQUALS)$(EQUALS)$(EQUALS)$(EQUALS)TimeWorker.exe: CMakeFiles/TimeWorker.dir/src/core/util/SmartPointer.cpp.obj
-$(EQUALS)$(EQUALS)$(EQUALS)$(EQUALS)$(EQUALS)$(EQUALS)TimeWorker.exe: CMakeFiles/TimeWorker.dir/build.make
-$(EQUALS)$(EQUALS)$(EQUALS)$(EQUALS)$(EQUALS)$(EQUALS)TimeWorker.exe: CMakeFiles/TimeWorker.dir/linklibs.rsp
-$(EQUALS)$(EQUALS)$(EQUALS)$(EQUALS)$(EQUALS)$(EQUALS)TimeWorker.exe: CMakeFiles/TimeWorker.dir/objects1.rsp
-$(EQUALS)$(EQUALS)$(EQUALS)$(EQUALS)$(EQUALS)$(EQUALS)TimeWorker.exe: CMakeFiles/TimeWorker.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\Dokumente\Applikationen\TimeWorker\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable ======TimeWorker.exe"
+TimeWorker.exe: CMakeFiles/TimeWorker.dir/src/main.cpp.obj
+TimeWorker.exe: CMakeFiles/TimeWorker.dir/src/data/Task.cpp.obj
+TimeWorker.exe: CMakeFiles/TimeWorker.dir/src/core/AbstractSerializer.cpp.obj
+TimeWorker.exe: CMakeFiles/TimeWorker.dir/src/core/TaskSerializer.cpp.obj
+TimeWorker.exe: CMakeFiles/TimeWorker.dir/src/cli/TimeWorkerCli.cpp.obj
+TimeWorker.exe: CMakeFiles/TimeWorker.dir/src/interface/AbstractUserInterface.cpp.obj
+TimeWorker.exe: CMakeFiles/TimeWorker.dir/src/core/util/DateConverter.cpp.obj
+TimeWorker.exe: CMakeFiles/TimeWorker.dir/src/core/util/SmartPointer.cpp.obj
+TimeWorker.exe: CMakeFiles/TimeWorker.dir/build.make
+TimeWorker.exe: CMakeFiles/TimeWorker.dir/linklibs.rsp
+TimeWorker.exe: CMakeFiles/TimeWorker.dir/objects1.rsp
+TimeWorker.exe: CMakeFiles/TimeWorker.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\JADA\Documents\Applikationen\C++\TimeWorker\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable TimeWorker.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\TimeWorker.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/TimeWorker.dir/build: $(EQUALS)$(EQUALS)$(EQUALS)$(EQUALS)$(EQUALS)$(EQUALS)TimeWorker.exe
+CMakeFiles/TimeWorker.dir/build: TimeWorker.exe
 
 .PHONY : CMakeFiles/TimeWorker.dir/build
 
@@ -219,6 +219,6 @@ CMakeFiles/TimeWorker.dir/clean:
 .PHONY : CMakeFiles/TimeWorker.dir/clean
 
 CMakeFiles/TimeWorker.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\Dokumente\Applikationen\TimeWorker E:\Dokumente\Applikationen\TimeWorker E:\Dokumente\Applikationen\TimeWorker\cmake-build-debug E:\Dokumente\Applikationen\TimeWorker\cmake-build-debug E:\Dokumente\Applikationen\TimeWorker\cmake-build-debug\CMakeFiles\TimeWorker.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\JADA\Documents\Applikationen\C++\TimeWorker C:\Users\JADA\Documents\Applikationen\C++\TimeWorker C:\Users\JADA\Documents\Applikationen\C++\TimeWorker\cmake-build-debug C:\Users\JADA\Documents\Applikationen\C++\TimeWorker\cmake-build-debug C:\Users\JADA\Documents\Applikationen\C++\TimeWorker\cmake-build-debug\CMakeFiles\TimeWorker.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/TimeWorker.dir/depend
 

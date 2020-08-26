@@ -21,11 +21,7 @@ void TaskSerializer::serialize_object(Task *object) const {
     // Convert time to string
     string timeString = ctime(time);
     // Get the AppData Folder
-<<<<<<< HEAD
     string appData = getenv("APPDATA");
-=======
-    std::string appData = getenv("APPDATA");
->>>>>>> 83f2b120207bd08c50dc86cdd2713f38af585a44
     // Write data to file
     ofstream fileStream;
     fileStream.open(appData + "/timeworker.data", ios::app);
@@ -75,13 +71,8 @@ list<Task> TaskSerializer::convert_to_list(vector<string> splitData) const {
                     loggedHours = stoi(splitData[j]);
                     break;
                 case 3:
-<<<<<<< HEAD
                     taskTime = DateConverter::convert_long_int_to_date(stol(splitData[j]));
                     cout << ctime(&taskTime);
-=======
-                    taskTime = DateConverter::convert_string_to_date(splitData[j]);
-                    cout << taskTime;
->>>>>>> 83f2b120207bd08c50dc86cdd2713f38af585a44
                     break;
             }
         }

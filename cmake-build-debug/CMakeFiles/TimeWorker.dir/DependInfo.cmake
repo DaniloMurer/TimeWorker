@@ -4,14 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/Dokumente/Applikationen/TimeWorker/src/cli/TimeWorkerCli.cpp" "E:/Dokumente/Applikationen/TimeWorker/cmake-build-debug/CMakeFiles/TimeWorker.dir/src/cli/TimeWorkerCli.cpp.obj"
-  "E:/Dokumente/Applikationen/TimeWorker/src/core/AbstractSerializer.cpp" "E:/Dokumente/Applikationen/TimeWorker/cmake-build-debug/CMakeFiles/TimeWorker.dir/src/core/AbstractSerializer.cpp.obj"
-  "E:/Dokumente/Applikationen/TimeWorker/src/core/TaskSerializer.cpp" "E:/Dokumente/Applikationen/TimeWorker/cmake-build-debug/CMakeFiles/TimeWorker.dir/src/core/TaskSerializer.cpp.obj"
-  "E:/Dokumente/Applikationen/TimeWorker/src/core/util/DateConverter.cpp" "E:/Dokumente/Applikationen/TimeWorker/cmake-build-debug/CMakeFiles/TimeWorker.dir/src/core/util/DateConverter.cpp.obj"
-  "E:/Dokumente/Applikationen/TimeWorker/src/core/util/SmartPointer.cpp" "E:/Dokumente/Applikationen/TimeWorker/cmake-build-debug/CMakeFiles/TimeWorker.dir/src/core/util/SmartPointer.cpp.obj"
-  "E:/Dokumente/Applikationen/TimeWorker/src/data/Task.cpp" "E:/Dokumente/Applikationen/TimeWorker/cmake-build-debug/CMakeFiles/TimeWorker.dir/src/data/Task.cpp.obj"
-  "E:/Dokumente/Applikationen/TimeWorker/src/interface/AbstractUserInterface.cpp" "E:/Dokumente/Applikationen/TimeWorker/cmake-build-debug/CMakeFiles/TimeWorker.dir/src/interface/AbstractUserInterface.cpp.obj"
-  "E:/Dokumente/Applikationen/TimeWorker/src/main.cpp" "E:/Dokumente/Applikationen/TimeWorker/cmake-build-debug/CMakeFiles/TimeWorker.dir/src/main.cpp.obj"
+  "C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/cli/TimeWorkerCli.cpp" "C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/cmake-build-debug/CMakeFiles/TimeWorker.dir/src/cli/TimeWorkerCli.cpp.obj"
+  "C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/core/AbstractSerializer.cpp" "C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/cmake-build-debug/CMakeFiles/TimeWorker.dir/src/core/AbstractSerializer.cpp.obj"
+  "C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/core/TaskSerializer.cpp" "C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/cmake-build-debug/CMakeFiles/TimeWorker.dir/src/core/TaskSerializer.cpp.obj"
+  "C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/core/util/DateConverter.cpp" "C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/cmake-build-debug/CMakeFiles/TimeWorker.dir/src/core/util/DateConverter.cpp.obj"
+  "C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/core/util/SmartPointer.cpp" "C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/cmake-build-debug/CMakeFiles/TimeWorker.dir/src/core/util/SmartPointer.cpp.obj"
+  "C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/data/Task.cpp" "C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/cmake-build-debug/CMakeFiles/TimeWorker.dir/src/data/Task.cpp.obj"
+  "C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/interface/AbstractUserInterface.cpp" "C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/cmake-build-debug/CMakeFiles/TimeWorker.dir/src/interface/AbstractUserInterface.cpp.obj"
+  "C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/main.cpp" "C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/cmake-build-debug/CMakeFiles/TimeWorker.dir/src/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
