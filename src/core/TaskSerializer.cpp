@@ -31,10 +31,10 @@ void TaskSerializer::serialize_object(Task *object) const {
 }
 
 void TaskSerializer::deserialize_object(string *filePath) const {
-    std::string appData = getenv("APPDATA");
-    std::fstream fileStream;
+    string appData = getenv("APPDATA");
+    fstream fileStream;
     fileStream.open(*filePath);
-    std::vector<std::string> splitData;
+    vector<string> splitData;
 
     if (fileStream.is_open()) {
         string line;

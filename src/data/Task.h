@@ -7,6 +7,7 @@
 #ifndef TIMEWORKER_TASK_H
 #define TIMEWORKER_TASK_H
 
+using namespace std;
 
 class Task {
 private:
@@ -19,7 +20,7 @@ private:
     /**
      * Task name
      */
-    std::string *taskName;
+    string *taskName;
 
     /**
      * Last start of the task
@@ -49,7 +50,7 @@ public:
      * Get the name of the task
      * @return The name of the task
      */
-    std::string* get_name();
+    string* get_name();
 
     /**
      * Get the logged time for the task
@@ -66,7 +67,7 @@ public:
      * Constructor for auto generating task with the name only
      * @param taskName The name of the task
      */
-    explicit Task(std::string taskName);
+    explicit Task(string taskName);
 
     /**
      * Constructor for creating a task with all properties
@@ -75,7 +76,7 @@ public:
      * @param loggedHours Logged Hours for the task
      * @param taskTime Time of the task
      */
-    explicit Task(int id, std::string taskName, int loggedHours, time_t taskTime);
+    explicit Task(int id, string taskName, int loggedHours, time_t taskTime);
 };
 
 

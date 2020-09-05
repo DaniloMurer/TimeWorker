@@ -15,7 +15,7 @@ time_t *Task::get_time() {
     return Task::taskTime;
 }
 
-std::string *Task::get_name() {
+string *Task::get_name() {
     return Task::taskName;
 }
 
@@ -30,13 +30,13 @@ Task::~Task() {
     delete Task::taskTime;
 }
 
-Task::Task(std::string taskName) {
+Task::Task(string taskName) {
     Task::taskName = &taskName;
 
     // Create random number using random library
     random_device rd;
     mt19937 mt(rd());
-    std::uniform_real_distribution<double> dist(1.0, 1000000.0);
+    uniform_real_distribution<double> dist(1.0, 1000000.0);
     int randomNumber = dist(mt);
 
     Task::id = &randomNumber;
@@ -45,7 +45,7 @@ Task::Task(std::string taskName) {
     Task::taskTime = &tempTaskTime;
  }
 
-Task::Task(int id, std::string taskName, int loggedHours, time_t taskTime) {
+Task::Task(int id, string taskName, int loggedHours, time_t taskTime) {
     Task::id = &id;
     Task::taskName = &taskName;
     Task::loggedHours = &loggedHours;

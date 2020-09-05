@@ -11,14 +11,16 @@
 #include "../data/Task.h"
 #include "list"
 
-class TaskSerializer : public AbstractSerializer<Task, std::string> {
+using namespace std;
+
+class TaskSerializer : public AbstractSerializer<Task, string> {
 public:
     void serialize_object(Task *object) const override;
 
-    void deserialize_object(std::string *filePath) const override;
+    void deserialize_object(string *filePath) const override;
 
 private:
-    std::list<Task> convert_to_list(std::vector<std::string> splitData) const;
+    list<Task> convert_to_list(vector<string> splitData) const;
 };
 
 

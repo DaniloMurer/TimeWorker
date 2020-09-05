@@ -5,6 +5,8 @@
 #include "interface/AbstractUserInterface.h"
 #include "cli/TimeWorkerCli.h"
 
+using namespace std;
+
 int main() {
     Task *task = new Task("name");
     // Create Serialize Interface
@@ -12,9 +14,9 @@ int main() {
     // Start the interface
     userInterface->start();
     TaskSerializer *taskSerializer = new TaskSerializer();
-    std::string appData = getenv("APPDATA");
-    std::string filePath = appData + "/timeworker.data";
-    std::string *filePathPointer = &filePath;
+    string appData = getenv("APPDATA");
+    string filePath = appData + "/timeworker.data";
+    string *filePathPointer = &filePath;
     //taskSerializer->serialize_object(task);
     taskSerializer->deserialize_object(filePathPointer);
 
