@@ -277,6 +277,33 @@ src/core/util/SmartPointer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TimeWorker.dir\build.make CMakeFiles/TimeWorker.dir/src/core/util/SmartPointer.cpp.s
 .PHONY : src/core/util/SmartPointer.cpp.s
 
+src/core/util/StringHelper.obj: src/core/util/StringHelper.cpp.obj
+
+.PHONY : src/core/util/StringHelper.obj
+
+# target to build an object file
+src/core/util/StringHelper.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TimeWorker.dir\build.make CMakeFiles/TimeWorker.dir/src/core/util/StringHelper.cpp.obj
+.PHONY : src/core/util/StringHelper.cpp.obj
+
+src/core/util/StringHelper.i: src/core/util/StringHelper.cpp.i
+
+.PHONY : src/core/util/StringHelper.i
+
+# target to preprocess a source file
+src/core/util/StringHelper.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TimeWorker.dir\build.make CMakeFiles/TimeWorker.dir/src/core/util/StringHelper.cpp.i
+.PHONY : src/core/util/StringHelper.cpp.i
+
+src/core/util/StringHelper.s: src/core/util/StringHelper.cpp.s
+
+.PHONY : src/core/util/StringHelper.s
+
+# target to generate assembly for a file
+src/core/util/StringHelper.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TimeWorker.dir\build.make CMakeFiles/TimeWorker.dir/src/core/util/StringHelper.cpp.s
+.PHONY : src/core/util/StringHelper.cpp.s
+
 src/data/Task.obj: src/data/Task.cpp.obj
 
 .PHONY : src/data/Task.obj
@@ -382,6 +409,9 @@ help:
 	@echo ... src/core/util/SmartPointer.obj
 	@echo ... src/core/util/SmartPointer.i
 	@echo ... src/core/util/SmartPointer.s
+	@echo ... src/core/util/StringHelper.obj
+	@echo ... src/core/util/StringHelper.i
+	@echo ... src/core/util/StringHelper.s
 	@echo ... src/data/Task.obj
 	@echo ... src/data/Task.i
 	@echo ... src/data/Task.s
