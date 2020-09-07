@@ -7,11 +7,12 @@
 
 #include <vector>
 #include <string>
+#include "list"
 
 using namespace std;
 class StringHelper {
 public:
-    static vector<string> split_string(string inputString, char splitCharacter);
+    static list<string> split_string(string inputString, char splitCharacter);
 };
 
 

@@ -13,6 +13,8 @@ TimeWorkerCli.h
 C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/cli/TimeWorkerCli.h
 ../core/util/StringHelper.h
 C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/core/util/StringHelper.h
+list
+C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/cli/list
 
 C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/cli/TimeWorkerCli.h
 ../interface/AbstractUserInterface.h
@@ -23,6 +25,8 @@ vector
 -
 string
 -
+list
+C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/core/util/list
 
 C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/interface/AbstractUserInterface.h
 

@@ -3,22 +3,23 @@
 //
 
 #include "StringHelper.h"
+#include "list"
 
-vector<string> StringHelper::split_string(string inputString, char splitCharacter) {
+list<string> StringHelper::split_string(string inputString, char splitCharacter) {
     bool splitCharacterFlag = false;
-    vector<string>* stringVector = new vector<string>;
-    string* stringToPush = new string;
+    auto* stringList = new list<string>;
+    auto* stringToPush = new string;
     for (char c : inputString) {
-        stringToPush->append(&c);
+        stringToPush += c;
         if (c == splitCharacter) {
             splitCharacterFlag = true;
-            stringVector->push_back(*stringToPush);
+            stringList->push_front(*stringToPush);
             stringToPush = new string;
         }
         // The splitCharacter was found, therefore append next chars to the string
         if (splitCharacterFlag) {
-            stringToPush->append(&c);
+            stringToPush += c;
         }
     }
-    return *stringVector;
+    return *stringList;
 }

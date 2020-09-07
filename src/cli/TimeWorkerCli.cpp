@@ -5,6 +5,7 @@
 #include <iostream>
 #include "TimeWorkerCli.h"
 #include "../core/util/StringHelper.h"
+#include "list"
 
 using namespace std;
 
@@ -20,6 +21,6 @@ void TimeWorkerCli::start() const {
     }
 
     // Check if the command is a TimeWorker command
-    vector<string> myVector = StringHelper::split_string(command, ' ');
-    cout << myVector[0];
+    list<string> myVector = StringHelper::split_string(command, ' ');
+    cout << myVector.size();
 }
