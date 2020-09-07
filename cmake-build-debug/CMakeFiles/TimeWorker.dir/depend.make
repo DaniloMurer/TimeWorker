@@ -3,6 +3,7 @@
 
 CMakeFiles/TimeWorker.dir/src/cli/TimeWorkerCli.cpp.obj: ../src/cli/TimeWorkerCli.cpp
 CMakeFiles/TimeWorker.dir/src/cli/TimeWorkerCli.cpp.obj: ../src/cli/TimeWorkerCli.h
+CMakeFiles/TimeWorker.dir/src/cli/TimeWorkerCli.cpp.obj: ../src/core/util/StringHelper.h
 CMakeFiles/TimeWorker.dir/src/cli/TimeWorkerCli.cpp.obj: ../src/interface/AbstractUserInterface.h
 
 CMakeFiles/TimeWorker.dir/src/core/AbstractSerializer.cpp.obj: ../src/core/AbstractSerializer.cpp
@@ -19,6 +20,9 @@ CMakeFiles/TimeWorker.dir/src/core/util/DateConverter.cpp.obj: ../src/core/util/
 
 CMakeFiles/TimeWorker.dir/src/core/util/SmartPointer.cpp.obj: ../src/core/util/SmartPointer.cpp
 CMakeFiles/TimeWorker.dir/src/core/util/SmartPointer.cpp.obj: ../src/core/util/SmartPointer.h
+
+CMakeFiles/TimeWorker.dir/src/core/util/StringHelper.cpp.obj: ../src/core/util/StringHelper.cpp
+CMakeFiles/TimeWorker.dir/src/core/util/StringHelper.cpp.obj: ../src/core/util/StringHelper.h
 
 CMakeFiles/TimeWorker.dir/src/data/Task.cpp.obj: ../src/data/Task.cpp
 CMakeFiles/TimeWorker.dir/src/data/Task.cpp.obj: ../src/data/Task.h

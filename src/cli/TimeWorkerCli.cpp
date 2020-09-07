@@ -4,6 +4,8 @@
 
 #include <iostream>
 #include "TimeWorkerCli.h"
+#include "../core/util/StringHelper.h"
+
 using namespace std;
 
 void TimeWorkerCli::start() const {
@@ -18,4 +20,6 @@ void TimeWorkerCli::start() const {
     }
 
     // Check if the command is a TimeWorker command
+    vector<string> myVector = StringHelper::split_string(command, ' ');
+    cout << myVector[0];
 }

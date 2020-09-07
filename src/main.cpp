@@ -13,12 +13,12 @@ int main() {
     AbstractUserInterface *userInterface = new TimeWorkerCli();
     // Start the interface
     userInterface->start();
-    TaskSerializer *taskSerializer = new TaskSerializer();
+    /*TaskSerializer *taskSerializer = new TaskSerializer();
     string appData = getenv("APPDATA");
     string filePath = appData + "/timeworker.data";
     string *filePathPointer = &filePath;
     //taskSerializer->serialize_object(task);
-    taskSerializer->deserialize_object(filePathPointer);
+    taskSerializer->deserialize_object(filePathPointer);*/
 
     // Delete pointer references
 

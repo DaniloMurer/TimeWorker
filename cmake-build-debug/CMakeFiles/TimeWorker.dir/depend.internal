@@ -4,6 +4,7 @@
 CMakeFiles/TimeWorker.dir/src/cli/TimeWorkerCli.cpp.obj
  C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/cli/TimeWorkerCli.cpp
  C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/cli/TimeWorkerCli.h
+ C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/core/util/StringHelper.h
  C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/interface/AbstractUserInterface.h
 CMakeFiles/TimeWorker.dir/src/core/AbstractSerializer.cpp.obj
  C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/core/AbstractSerializer.cpp
@@ -20,6 +21,9 @@ CMakeFiles/TimeWorker.dir/src/core/util/DateConverter.cpp.obj
 CMakeFiles/TimeWorker.dir/src/core/util/SmartPointer.cpp.obj
  C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/core/util/SmartPointer.cpp
  C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/core/util/SmartPointer.h
+CMakeFiles/TimeWorker.dir/src/core/util/StringHelper.cpp.obj
+ C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/core/util/StringHelper.cpp
+ C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/core/util/StringHelper.h
 CMakeFiles/TimeWorker.dir/src/data/Task.cpp.obj
  C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/data/Task.cpp
  C:/Users/JADA/Documents/Applikationen/C++/TimeWorker/src/data/Task.h

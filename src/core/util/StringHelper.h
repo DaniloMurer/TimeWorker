@@ -11,7 +11,7 @@
 using namespace std;
 class StringHelper {
 public:
-    static vector<string> split_string(string& inputString);
+    static vector<string> split_string(string inputString, char splitCharacter);
 };
 
 
